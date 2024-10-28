@@ -153,7 +153,6 @@ public class main {
 
     }
     public static void DynamicSchedule(priorityqueue<Task> arrivalQueue) {
-        // Initialize a priority queue for ready tasks based on processing time
         priorityqueue<Task> readyQueue = new priorityqueue<>(arrivalQueue.size());
         int time = 0;
         int totalCompletionTime = 0;
